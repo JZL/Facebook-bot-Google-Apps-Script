@@ -1,10 +1,10 @@
 * What is this?
-** This is an implementation of a Facebook Messenger bot written in [[https://developers.google.com/apps-script/][Google Apps Script]] (a javascript runtime in the google cloud). The advantage of using Google Apps Script is it allows GET and POST requests to be made and recieved for free and without having to run your own server. It also allows arbitrary temporal triggers to be set so functions get be run at exact times or on minutely/hourly/daily/weekly intervals.
+This is an implementation of a Facebook Messenger bot written in [[https://developers.google.com/apps-script/][Google Apps Script]] (a javascript runtime in the google cloud). The advantage of using Google Apps Script is it allows GET and POST requests to be made and recieved for free and without having to run your own server. It also allows arbitrary temporal triggers to be set so functions get be run at exact times or on minutely/hourly/daily/weekly intervals.
 * How to get started
-** Go to [[http://script.google.com]] and copy the code in. Save and name the script and go to the cloud icon (5th icon from the left), change the bottom dropdown ("Who has access to the app") to "Anyone, even anonymous", and click "Publish". Copy that URL for use in facebook
-** Follow Facebook's [[https://developers.facebook.com/docs/messenger-platform/quickstart][Getting Started]] tutorial and, when it asks for the callback function for the webhook, paste the previous url in
-** After making any changes, the app needs to be update
-*** Go to the cloud icon again, click the "Versions" dropdown and go the bottom for "New", then click the "Update" button
+1. Go to [[http://script.google.com]] and copy the code in. Save and name the script and go to the cloud icon (5th icon from the left), change the bottom dropdown ("Who has access to the app") to "Anyone, even anonymous", and click "Publish". Copy that URL for use in facebook
+2. Follow Facebook's [[https://developers.facebook.com/docs/messenger-platform/quickstart][Getting Started]] tutorial and, when it asks for the callback function for the webhook, paste the previous url in
+3. After making any changes, the app needs to be update
+   * Go to the cloud icon again, click the "Versions" dropdown and go the bottom for "New", then click the "Update" button
 * Where should I make changes
-** the main place to make changes is around line 117 with the case statements, enter the keywords you want and change/write the functions you want that keyword to call (the left panel of [[https://developers.facebook.com/docs/messenger-platform/send-api-reference][this page]] has many good example templates, just copy what's between the "message" key into the new function
-** (More complicated use cases with callbacks and buttons is possible)
+the main place to make changes is around line 117 with the case statements, enter the keywords you want and change/write the functions you want that keyword to call (the left panel of [[https://developers.facebook.com/docs/messenger-platform/send-api-reference][this page]] has many good example templates, just copy what's between the "message" key into the new function
+  (More complicated use cases with callbacks and buttons is possible)
