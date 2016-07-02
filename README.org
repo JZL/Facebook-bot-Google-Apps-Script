@@ -6,5 +6,5 @@ This is an implementation of a Facebook Messenger bot written in [[https://devel
 3. After making any changes, the app needs to be update
    * Go to the cloud icon again, click the "Versions" dropdown and go the bottom for "New", then click the "Update" button
 * Where should I make changes
-the main place to make changes is around line 117 with the case statements, enter the keywords you want and change/write the functions you want that keyword to call (the left panel of [[https://developers.facebook.com/docs/messenger-platform/send-api-reference][this page]] has many good example templates, just copy what's between the "message" key into the new function
+The main place to make changes is around line 117 with the case statements, enter the keywords you want and change/write the functions you want that keyword to call (the left panel of [[https://developers.facebook.com/docs/messenger-platform/send-api-reference][this page]] has many good example templates, just copy what's between the "message" key into the new function
   (More complicated use cases with callbacks and buttons is possible)
